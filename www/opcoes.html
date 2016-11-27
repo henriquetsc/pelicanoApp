@@ -16,20 +16,25 @@
 		</head>
 		<body>
 			<header>
-				<nav class="navbar navbar-default">
-					<div class="container-fluid">
-						<div class="navbar-header">
-							<a class="navbar-brand" href="#">
-								<img alt="" src="img/icon-pelican.png" style="width: 45px; height: 40px;">
-							</a>
-						</div>
-					</div>
-				</nav>
-			</header>
+		<nav class="navbar navbar-fixed navbar-default" style="background-color: #fff;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<img alt="" src="img/pelican-icon.png" style="width: 100px; height: 40px;">
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
 
 			<main>
 				<section class="botoes-de-acao">
 					<div class="container">
+						<div class="texto-more-code" style="display: flex; justify-content: space-around; align-self: center; padding-bottom: 0">
+							<div class="titulo-consumo" style="margin-right: 15px;">Atualmente, seu consumo médio é: </div>
+						</div>
+						<div class="titulo-resultado_consumo text-center	" style="margin-right: 15px; margin-bottom:30px;">165,50</div>
+						
 						<div onclick="openScanner(event);" class="texto-more-code" style="display: flex; justify-content: space-around; align-self: center; padding-bottom: 0">
 							<span class="titulo-codigo-de-barras" style="margin-right: 15px;">Utilize o leitor de codigo de barras</span>
 							<span><i class="fa fa-barcode fa-2x"></i></span>
@@ -42,8 +47,7 @@
 					<div id="divValor" style="display: none" class="container">
 						Valor: <span id="spanValor"></span>
 					</div>
-				</section>
-			</main>
+				</div>
 
 			</body>
 			</html>
