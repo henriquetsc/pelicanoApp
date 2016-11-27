@@ -1,0 +1,43 @@
+@import "variaveis";
+@import "dados-de-usuario";
+@import "botoes-de-acoes";
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding:0;
+	margin: 0;
+}
+
+main {
+	height: calc(100% - 70px); 
+	@include flex;
+}
+
+.navbar-brand {
+	padding-top: 4px;
+}
+
+main {
+	height: calc(100% - 60px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.primeiro-acesso, .cadastrar, .esqueci-a-senha {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.social-network {
+	@include flex;
+	flex-direction: column;
+
+	.social-icons {
+		margin-top: 2em;
+		flex-direction: row;
+	}
+}
+

@@ -1,0 +1,18 @@
+{
+  "name": "hackhaton",
+  "version": "1.0.0",
+  "description": "Projeto do Hackhaton Ambev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emerson Jr",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "materialize-css": "^0.97.8",
+    "materializecss": "^1.0.11"
+  }
+}

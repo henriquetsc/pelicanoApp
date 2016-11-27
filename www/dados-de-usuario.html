@@ -1,0 +1,111 @@
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<access origin="*" />
+			<title>Cadastro</title>
+			<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+			<!-- 	<link rel="stylesheet" href="node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css"> -->
+			<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+			<link rel="stylesheet" href="assets/css/style.css">
+			<link rel="stylesheet" href="assets/css/dados-de-usuario.css">
+			<script src="node_modules/jquery/dist/jquery.min.js"></script>
+			<script src="assets/js/dados-de-usuario.js"></script>
+			<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+			
+		</head>
+		<body>
+			<header>
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#">
+								<img alt="" src="img/icon-pelican.png" style="width: 45px; height: 40px;">
+							</a>
+						</div>
+					</div>
+				</nav>
+			</header>
+
+			<section class="formulario-dados-de-usuario">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<form action="">
+								<div class="form-group">
+									<label for="email">Quantidade de pessoas</label>
+									<input type="email" class="form-control" id="email" placeholder="Email">
+								</div>
+
+								<div class="form-group">
+									<label for="qtd_pessoas_residencia">Quantidade de pessoas na residencia</label>
+									<input type="number" class="form-control" id="qtd_pessoas_residencia" placeholder="">
+								</div>
+
+								<div class="form-group">
+									<label for="data_venc_conta"></label>
+									<input type="number" class="form-control" id="data_venc_conta" placeholder="Dia de Vencimento">
+								</div>
+
+								<div class="form-group">
+									<select name="Informe o estado" id="cidade">
+										<option value="">Informe o estado</option>
+										<option value="AC">AC</option>
+										<option value="AL">AL</option>
+										<option value="AM">AM</option>
+										<option value="AP">AP</option>
+										<option value="BA">BA</option>
+										<option value="CE">CE</option>
+										<option value="DF">DF</option>
+										<option value="ES">ES</option>
+										<option value="GO">GO</option>
+										<option value="MA">MA</option>
+										<option value="MG">MG</option>
+										<option value="MS">MS</option>
+										<option value="MT">MT</option>
+										<option value="PA">PA</option>
+										<option value="PB">PB</option>
+										<option value="PE">PE</option>
+										<option value="PI">PI</option>
+										<option value="PR">PR</option>
+										<option value="RJ">RJ</option>
+										<option value="RN">RN</option>
+										<option value="RS">RS</option>
+										<option value="RO">RO</option>
+										<option value="RR">RR</option>
+										<option value="SC">SC</option>
+										<option value="SE">SE</option>
+										<option value="SP">SP</option>
+										<option value="TO">TO</option>
+									</select>
+								</div>
+
+								<div class="form-group">
+									<label for="cidade">Cidade</label>
+									<input type="text" class="form-control" id="uf" placeholder="Informe a cidade">
+								</div>
+
+								<div class="form-group">
+									<select name="" id=""> Informe o tipo de residencia
+										<option value="1">Residencial-Social</option>
+										<option value="1">Residencial-Favela</option>
+										<option value="1">Residencial-Normal</option>
+									</select>
+									
+								</div>
+
+								<div class="form-group">
+									<input type='button' class="btn btn-primary" id="iniciar" value='Iniciar'>
+								</div>
+
+								<p id="teste"></p>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+
+
+			</html>
