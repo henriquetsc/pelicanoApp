@@ -7,4 +7,7 @@ html, body {
 input {
   width: 100% !important; }
 
+.formulario-dados-de-usuario {
+  margin-top: -15px !important; }
+
 /*# sourceMappingURL=dados-de-usuario.css.map */

@@ -7,7 +7,7 @@ Error: Undefined mixin 'flex'.
 2: 	@include flex;
 3: 	flex-direction: column;
 4: 
-5: 	.atividades, .minhas-medias, .financeiro, .desafio {
+5: 	.atividades, .minhas-medias, .financeiro, .desafio, .empresas {
 6: 		width: 100%;
 7: 		margin: .3em;
 
@@ -67,4 +67,4 @@ css/botoes-de-acoes.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex'.\A         on line 2 of css/botoes-de-acoes.scss, in `flex'\A         from line 2 of css/botoes-de-acoes.scss\A \A 1: .botoes-de-acao {\A 2: 	@include flex;\A 3: 	flex-direction: column;\A 4: \A 5: 	.atividades, .minhas-medias, .financeiro, .desafio {\A 6: 		width: 100%;\A 7: 		margin: .3em;"; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 2 of css/botoes-de-acoes.scss, in `flex'\A         from line 2 of css/botoes-de-acoes.scss\A \A 1: .botoes-de-acao {\A 2: 	@include flex;\A 3: 	flex-direction: column;\A 4: \A 5: 	.atividades, .minhas-medias, .financeiro, .desafio, .empresas {\A 6: 		width: 100%;\A 7: 		margin: .3em;"; }

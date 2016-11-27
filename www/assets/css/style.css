@@ -7,14 +7,20 @@ html, body {
 input {
   width: 100% !important; }
 
+.formulario-dados-de-usuario {
+  margin-top: -15px !important; }
+
 .botoes-de-acao {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  .botoes-de-acao .atividades, .botoes-de-acao .minhas-medias, .botoes-de-acao .financeiro, .botoes-de-acao .desafio {
+  .botoes-de-acao .atividades, .botoes-de-acao .minhas-medias, .botoes-de-acao .financeiro, .botoes-de-acao .desafio, .botoes-de-acao .empresas {
     width: 100%;
     margin: .3em; }
+
+.texto-more-code {
+  height: 40px !important; }
 
 html, body {
   height: 100%;

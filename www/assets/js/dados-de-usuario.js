@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 	function ajaxServer(acao, data){
 		$.ajax({
-			url      : 'http://172.16.15.165/workspace/HackathonAmbev/index.php',
+			url      : 'http://maglione.eti.br/hackathon/HackathonAmbev/index.php',
 			jsonp    : "callback",
 			dataType : 'text',
 			type     : 'POST',
@@ -25,7 +25,7 @@ $(document).ready(function() {
 				if(acao == 'INSERT_USER'){
 		          	// Next step the application porra!
 		          }
-		           $('#teste').text('1 '+JSON.stringify(result));
+		          $('#teste').text('1 '+JSON.stringify(result));
 		          console.log(result);
 		      },
 		      error :  function(result){
@@ -36,7 +36,7 @@ $(document).ready(function() {
 	}
 
 	$('#iniciar').click(function() {
-		
 		insertUser();
+		$(location).attr("href", 'opcoes.html' + '?email' + $("#email").val() + '&qtd_pessoas_residencia' + $("#qtd_pessoas_residencia").val() + '&data_venc_conta' + $("#data_venc_conta").val() + '&cidade' + $("#cidade").val() + '&uf'+ $("#uf").val());
 	});
 });
