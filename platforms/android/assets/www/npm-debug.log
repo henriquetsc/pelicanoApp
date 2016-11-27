@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'shrinkwrap' ]
+2 info using npm@3.10.9
+3 info using node@v7.2.0
+4 info lifecycle hackhaton@1.0.0~preshrinkwrap: hackhaton@1.0.0
+5 silly lifecycle hackhaton@1.0.0~preshrinkwrap: no script for preshrinkwrap, continuing
+6 info lifecycle hackhaton@1.0.0~shrinkwrap: hackhaton@1.0.0
+7 silly lifecycle hackhaton@1.0.0~shrinkwrap: no script for shrinkwrap, continuing
+8 verbose stack Error: Problems were encountered
+8 verbose stack Please correct and try again.
+8 verbose stack peer invalid: es6-shim@^0.35.0, required by angular2@2.0.0-beta.17
+8 verbose stack peer invalid: reflect-metadata@0.1.2, required by angular2@2.0.0-beta.17
+8 verbose stack peer invalid: rxjs@5.0.0-beta.6, required by angular2@2.0.0-beta.17
+8 verbose stack peer invalid: zone.js@^0.6.12, required by angular2@2.0.0-beta.17
+8 verbose stack     at shrinkwrap_ (/usr/local/lib/node_modules/npm/lib/shrinkwrap.js:128:15)
+8 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+8 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+8 verbose stack     at done (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+8 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+8 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:294:20
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:264:29
+8 verbose stack     at FSReqWrap.oncomplete (fs.js:111:15)
+9 verbose cwd /Users/henriquetsc/Documents/Desenvolvimento/pelicanoApp/www
+10 error Darwin 14.5.0
+11 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "shrinkwrap"
+12 error node v7.2.0
+13 error npm  v3.10.9
+14 error Problems were encountered
+14 error Please correct and try again.
+14 error peer invalid: es6-shim@^0.35.0, required by angular2@2.0.0-beta.17
+14 error peer invalid: reflect-metadata@0.1.2, required by angular2@2.0.0-beta.17
+14 error peer invalid: rxjs@5.0.0-beta.6, required by angular2@2.0.0-beta.17
+14 error peer invalid: zone.js@^0.6.12, required by angular2@2.0.0-beta.17
+15 error If you need help, you may report this error at:
+15 error     <https://github.com/npm/npm/issues>
+16 verbose exit [ 1, true ]

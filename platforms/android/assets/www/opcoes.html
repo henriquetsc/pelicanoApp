@@ -5,12 +5,14 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title>Cadastro</title>
 			<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-			<!-- 	<link rel="stylesheet" href="node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css"> -->
 			<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 			<link rel="stylesheet" href="assets/css/style.css">
 			<link rel="stylesheet" href="assets/css/dados-de-usuario.css">
+			<script type="text/javascript" src="cordova.js"></script>
+			<script type="text/javascript" src="assets/js/opcoes.js"></script>
 			<script src="node_modules/jquery/dist/jquery.min.js"></script>
 			<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script src="assets/js/script.js"></script>
 		</head>
 		<body>
 			<header>
@@ -28,14 +30,21 @@
 			<main>
 				<section class="botoes-de-acao">
 					<div class="container">
-						<button class="btn btn-primary atividades">Atividades</button>
-						<button class="btn btn-primary minhas-medias">Minhas Médias</button>
-						<button class="btn btn-primary financeiro">Financeiro</button>
-						<button class="btn btn-primary desafio">Desafio</button>
+						<div onclick="openScanner(event);" class="texto-more-code" style="display: flex; justify-content: space-around; align-self: center; padding-bottom: 0">
+							<span class="titulo-codigo-de-barras" style="margin-right: 15px;">Utilize o leitor de codigo de barras</span>
+							<span><i class="fa fa-barcode fa-2x"></i></span>
+						</div>
 					</div>
-					
+
+					<button class="btn btn-primary atividades">Atividades</button>
+					<a class="btn btn-primary minhas-medias">Media de Gastos</a>
+					<button class="btn btn-primary financeiro">Financeiro</button>
+					<button class="btn btn-primary desafio">Desafio</button>
+					<div class="container">
+						Valor: <span id="spanValor"></span>
+					</div>
 				</section>
 			</main>
 
-		</body>
-		</html>
+			</body>
+			</html>
